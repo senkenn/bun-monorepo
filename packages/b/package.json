@@ -1,0 +1,9 @@
+{
+  "name": "pkg-b",
+  "devDependencies": {
+    "pkg-a": "workspace:*"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  }
+}
